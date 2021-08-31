@@ -1,6 +1,6 @@
 {
   "name": "@kapetan/simple-pid",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A PID controller in JavaScript",
   "main": "index.js",
   "scripts": {
