@@ -1,0 +1,27 @@
+{
+  "name": "@kapetan/simple-pid",
+  "version": "0.0.0",
+  "description": "A PID controller in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapetan/simple-pid.git"
+  },
+  "keywords": [
+    "pid",
+    "loop",
+    "controller"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapetan/simple-pid/issues"
+  },
+  "homepage": "https://github.com/kapetan/simple-pid#readme",
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tape": "^5.3.1"
+  }
+}
