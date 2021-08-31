@@ -1,5 +1,7 @@
 # simple-pid
 
+[![Test](https://github.com/kapetan/simple-pid/actions/workflows/test.yml/badge.svg)](https://github.com/kapetan/simple-pid/actions/workflows/test.yml)
+
 A simple PID controller ported from [m-lundberg/simple-pid](https://github.com/m-lundberg/simple-pid) to JavaScript. This library exposes a similar API as the original Python module.
 
     npm install @kapetan/simple-pid
