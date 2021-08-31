@@ -45,6 +45,6 @@ Initialize a new PID controller.
 ### `pid.update(input[, dt])`
 
 * `input` The new input value.
-* `dt` If set, uses this value for timestep instead of real time. This can be used in simulations when simulation time is different from real time. **Default:** `null`.
+* `dt` Elapsed time in milliseconds. If set, uses this value for timestep instead of real time. This can be used in simulations when simulation time is different from real time. **Default:** `null`.
 
-Update the PID controller with *input* and calculate and return a control output if `sampleTime` seconds has passed since the last update. If no new output is calculated, return the previous output instead (or `null` if no value has been calculated yet).
+Update the PID controller with `input` and calculate and return a control output if `sampleTime` seconds has passed since the last update. If no new output is calculated, return the previous output instead (or `null` if no value has been calculated yet).
